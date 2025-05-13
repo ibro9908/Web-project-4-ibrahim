@@ -11,10 +11,9 @@ ul {
   height: 97px;
   margin: 1px;
   padding: 0px;
-  text-align: center;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
 }
 
 ul li {
@@ -25,8 +24,6 @@ ul li a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: white;
-  text-align: center;
-  font-size: 3em;
   font-size: 26px;
   line-height: 150px;
   font-weight: 300;
@@ -43,16 +40,6 @@ body {
   margin: 0;
 }
 
-#section-of-image {
-  background-image: url(images/thumbnail_Outlook-kr1ljt4j.png);
-  background-size: 1570px 700px;
-  background-repeat: no-repeat;
-  width: 15700px;
-  height: 700px;
-  position: fixed;
-  top: 100px;
-}
-
 html {
   width: 100%;
 }
@@ -60,13 +47,13 @@ html {
 .text-areas {
   background-color: rgb(43, 59, 43);
   border-radius: 5px;
-  width: 1300px;
+  width: 86%;
   height: 300px;
   margin-left: 8%;
   opacity: 0%;
-  margin-top: 150px;
+  margin-top: 200px;
   position: relative;
-  animation: fadeIn 1.5s ease-in-out 0.4s forwards;
+  animation: fadeIn 1.5s ease-in-out 0.2s forwards;
 }
 
 @keyframes fadeIn {
