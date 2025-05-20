@@ -1,34 +1,44 @@
+<!--  
+Name:  Ibrahim Abdulsalaam 
+Course:  Web dev 10 s 
+Teacher:  Ms. Hoitink 
+School:  Pembina Trails Collegiate 
+Date Last Modified: May 21, 2025
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="index.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home - Naawi-Oodena</title>
     <style>
-      p {
-        color: white;
-        font-size: 1.3rem;
-      }
-
-      h1 {
-        color: white;
-      }
-
-      li {
-        color: white;
-        font-size: 1.9rem;
-        font-family: "Roboto", sans-serif;
-      }
-
       #section-of-image {
-        background-image: url(images/thumbnail_Outlook-kr1ljt4j.png);
-        background-size: 100% 650px;
+        border-left: white solid 0.3rem;
+        background-image: url(images/bobobear.png);
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
-        height: 650px;
+        height: 100%;
         position: fixed;
-        top: 100px;
+        top: 14%;
+      }
+
+      .text-areas {
+        margin-top: 50vh;
+      }
+
+      #map {
+        background-color: rgb(43, 59, 43);
+        border-radius: 1%;
+        width: 50%;
+        height: 100vh;
+        margin-left: 23%;
+        margin-top: 38vh;
+        padding: 2%;
+        animation: fadeInforimages 1.5s ease-in-out 0.2s forwards;
+        opacity: 1;
       }
     </style>
   </head>
@@ -38,98 +48,101 @@
         <ul>
           <li id="logo-text">Naawi Oodena</li>
           <div class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="second-page.html">About</a></li>
-            <li><a href="third-page.html">Contact</a></li>
+            <li><a tabindex="1" href="index.html">Home</a></li>
+            <li><a tabindex="2" href="About.html">About</a></li>
+            <li><a tabindex="3" href="contact.html">Contact</a></li>
           </div>
         </ul>
       </nav>
     </header>
 
-    <section id="section-of-image"></section>
-    <br />
-    <div class="text-areas">
-      <h1>Residential</h1>
+    <section id="section-of-image">
+      <div tabindex="4" class="main-title">Welcome to Naaawi Oodena</div>
+      <div tabindex="5" class="main-title">
+        “Reconnecting community, culture, and the land.”
+      </div>
+    </section>
 
-      <p>
-        Naawi-Oodena’s residential spaces are thoughtfully designed to blend
-        modern living with cultural heritage. These homes aim to foster a strong
-        sense of community, where families can grow together in a safe,
-        inclusive, and vibrant environment. The neighborhood includes a mix of
-        single-family homes, townhouses, and apartments — all built with
-        sustainable materials and respectful of the land. Walking paths, green
-        spaces, and gathering areas create opportunities for neighbors to
-        connect and celebrate traditions. Future residents can look forward to a
-        lifestyle that combines comfort, nature, and cultural pride — right at
-        the heart of a growing community.
-      </p>
-    </div>
-    <br />
-    <div class="text-areas">
-      <h1>Commercial /Mixed-Use</h1>
+    <main>
+      <section class="text-areas">
+        <h1 tabindex="6">What is Naawi-Oodena?</h1>
+        <p>
+          Naawi-Oodena is a historic and visionary Indigenous-led redevelopment
+          of the former Kapyong Barracks land in Winnipeg, Manitoba...
+        </p>
+      </section>
 
-      <p>
-        Commercial Naawi-Oodena’s commercial spaces are designed to support
-        thriving local businesses while reflecting the community's cultural
-        values. With room for retail shops, restaurants, and markets, the area
-        invites residents and visitors alike to connect, support
-        entrepreneurship, and experience authentic offerings in a modern yet
-        respectful setting. The mixed-use developments at Naawi-Oodena blend
-        residential, retail, and community spaces into walkable, vibrant
-        neighborhoods. These spaces aim to promote convenience, sustainability,
-        and a strong sense of community, all while maintaining a close
-        connection to the land and its people.
-      </p>
-    </div>
-    <br />
-    <div class="text-areas">
-      <h1>Community Spaces</h1>
+      <section>
+        <figure>
+          <img
+            tabindex="7"
+            src="images/imgae 1.jpg"
+            alt="Indigenous family or diverse group walking on a forest path..." />
+        </figure>
+      </section>
 
-      <p>
-        Naawi-Oodena’s community spaces are places of gathering, ceremony, and
-        shared experience. Parks, green areas, and cultural centers are
-        thoughtfully designed to bring people together for events, storytelling,
-        and celebrations that honor Indigenous traditions while welcoming all.
-        These spaces reflect unity, resilience, and a deep respect for the land.
-      </p>
-    </div>
-    <br />
-    <div class="text-areas">
-      <h1>Sports and Recreation</h1>
+      <section class="text-areas">
+        <h1 tabindex="8">Why we matter</h1>
+        <p>
+          Naawi-Oodena is a historic and visionary Indigenous-led
+          redevelopment...
+        </p>
+      </section>
 
-      <p>
-        The sports and recreation facilities at Naawi-Oodena offer opportunities
-        for wellness, teamwork, and active living. From multi-use fields and
-        basketball courts to indoor arenas and walking trails, these spaces
-        encourage all generations to engage in physical activity, build
-        community spirit, and celebrate health through movement rooted in
-        balance and tradition.
-      </p>
-    </div>
-    <br />
-    <div class="text-areas">
-      <h1>Cultural Campus + Education</h1>
+      <section>
+        <figure>
+          <img
+            tabindex="9"
+            src="images/output (0.5).jpg"
+            alt="Multiple sets of hands planting a small tree..." />
+        </figure>
+      </section>
 
-      <p>
-        The Cultural Campus and education spaces at Naawi-Oodena are centers for
-        learning, language, and legacy. These spaces honor Indigenous knowledge
-        systems while integrating modern education. With schools, libraries, and
-        cultural centers, the community empowers youth and lifelong learners
-        through teachings that reflect identity, history, and a shared future.
-      </p>
-    </div>
-    <br />
-    <div class="text-areas">
-      <h1>Mixed-use village</h1>
+      <section class="text-areas">
+        <h1 tabindex="10">Who Is Behind Naawi-Oodena</h1>
+        <p>
+          Naawi-Oodena is a historic and visionary Indigenous-led
+          redevelopment...
+        </p>
+      </section>
 
-      <p>
-        The Mixed-Use Village at Naawi-Oodena brings together homes, shops,
-        services, and workplaces in one vibrant hub. Designed for walkability
-        and community connection, this area blends traditional values with
-        modern living—creating a place where people can live, work, and gather
-        all in one space.
-      </p>
-    </div>
-    <br />
+      <iframe
+        tabindex="11"
+        id="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18300.737513633994!2d-97.21334262724298!3d49.853966725249606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea74eab82e68cb%3A0x4ffc4bf8a3a9cf2f!2sNaawi-Oodena%2C%20Winnipeg%2C%20MB!5e0!3m2!1sen!2sca!4v1747726372523!5m2!1sen!2sca"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+
+    <footer tabindex="12" class="site-footer">
+      <div class="footer-content">
+        <p>&copy; 2025 Naawi-Oodena | Site by Ibrahim Abdulsalaam</p>
+        <p>Web Development 10S | Ms. Hoitink | Pembina Trails Collegiate</p>
+        <p>Learn more-</p>
+        <iframe
+          tabindex="13"
+          width="560"
+          height="100"
+          src="https://www.youtube.com/embed/WGqN5MTamP8?si=FO3RjM9JT49hlO5F"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+        <p>
+          view source
+          <a
+            tabindex="14"
+            target="_blank"
+            href="https://www.youtube.com/watch?v=WGqN5MTamP8"
+            >here</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
